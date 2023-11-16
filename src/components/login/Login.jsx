@@ -140,7 +140,7 @@ export default function Login() {
       <Divider sx={{ mt: 3, mb: 5 }} />
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>
-          <GoogleOAuthProvider clientId="86131853653-nus62a260i6knr4u2jc9lkprit9s7uur.apps.googleusercontent.com">
+          <GoogleOAuthProvider clientId="clientID">
             <GoogleLogin
               onSuccess={handleGoogleSuccess}
               onError={() => {
